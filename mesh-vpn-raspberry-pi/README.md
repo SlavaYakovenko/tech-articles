@@ -1,6 +1,6 @@
 # Mesh VPN for Raspberry Pi
 
-![Network Setup](./images/raspberripi-tailscale-network-diagram-1)
+![Network Setup](./images/raspberripi-tailscale-network-diagram-1.png)
 
 If you are fond of microboards like I am, this article will surely be of interest to you. Today, I will share some information about things that are readily available to you.
 
