@@ -6,15 +6,22 @@ A collection of technical articles covering networking, IoT, microboards, and de
 
 ```
 tech-articles/
-├── README.md                    # This file
+├── README.md                           # This file
 ├── mesh-vpn-raspberry-pi/
-│   ├── README.md               # Main article
+│   ├── README.md                      # Part 1: Basic Tailscale setup
 │   ├── images/
-│   │   ├── network-diagram-1.png
-│   │   ├── network-diagram-2.png
-│   │   └── tailscale-setup.png
+│   │   ├── raspberripi-tailscale-network-diagram-1.png
+│   │   ├── raspberripi-tailscale-network-diagram-2.png
+│   │   └── raspberripi-tailscale-network-diagram-3.png
 │   └── assets/
 │       └── tailscale-commands.sh
+├── mesh-vpn-raspberry-pi-part2/
+│   ├── README.md                      # Part 2: Subnet routing
+│   ├── images/
+│   │   ├── raspberripi-tailscale-network-diagram-4.png
+│   │   └── raspberripi-tailscale-network-diagram-5.png
+│   └── assets/
+│       └── subnet-routing-commands.sh
 └── [future-articles]/
     ├── README.md
     └── images/
@@ -31,7 +38,25 @@ A practical guide to setting up Tailscale mesh VPN for remote access to Raspberr
 - Mesh networking fundamentals
 - Remote access to microboards
 
+### 🔗 [Mesh VPN for Raspberry Pi :: Part 2](./mesh-vpn-raspberry-pi-part2/README.md)
+Advanced Tailscale configuration for accessing your entire home network remotely through subnet routing. Learn how to reach any device on your home network from anywhere in the world.
+
+**Topics covered:**
+- Subnet routing configuration
+- IP forwarding setup
+- Multi-location network planning
+- Global device access strategies
+- Network topology best practices
+
 ---
+
+## Series Overview
+
+The **Mesh VPN for Raspberry Pi** series provides a comprehensive guide to building secure, scalable remote access solutions:
+
+1. **Part 1**: Basic mesh VPN setup with device-to-device connectivity
+2. **Part 2**: Subnet routing for full network access
+3. **Part 3**: *(Coming soon)* Exit nodes and advanced security
 
 ## About
 
