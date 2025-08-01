@@ -1,6 +1,6 @@
 # Pandas: Direct Column Calculation vs Masked One
 
-![JSON Parsing: Direct Apply vs Masked Apply Performance](./images/benchmark.png)
+![](./images/title.png)
 
 Recently, one of my colleagues and I had a discussion about two different approaches - determining the optimal way to calculate a column in a Panda's DataFrame based on another column that contains hierarchical JSON.
 
@@ -74,6 +74,8 @@ def approach_2_masked_apply(self, df: pd.DataFrame) -> tuple:
 ## Results
 
 I hope that result will be interesting to you:
+
+![JSON Parsing: Direct Apply vs Masked Apply Performance](./images/benchmark.png)
 
 As you can see, the actual performance will depend on the size of the DataFrame, the fill rate of the non-empty cells with JSON, and the complexity of the operation needed for each cell. In our scenario, the JSON parsing operation is resource-intensive, whereas checking if a cell is empty is a less resource-demanding operation. Therefore, even with a dataset containing 50,000 rows, we can expect to have consistent performance overall.
 
