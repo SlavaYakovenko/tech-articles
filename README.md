@@ -7,7 +7,7 @@ A collection of technical articles covering networking, IoT, microboards, and de
 ```
 tech-articles/
 ├── README.md
-├── pandas-json-parsing-performance/
+├── pandas-apply-benchmarks/
 ├── mesh-vpn-raspberry-pi-part2/
 ├── mesh-vpn-raspberry-pi/
 └── [future-articles]/
@@ -15,7 +15,7 @@ tech-articles/
 
 ## Articles
 
-### 🔗 [Pandas: Direct Column Calculation vs Masked One](./pandas-json-parsing-performance/README.md)
+### 🔗 [Pandas: Direct Column Calculation vs Masked One](./pandas-apply-benchmarks/README.md)
 Performance analysis of two approaches for processing JSON data in pandas DataFrames. A comprehensive benchmark comparing direct apply vs masked filtering approaches with practical recommendations for different scenarios.
 
 **Topics covered:**
