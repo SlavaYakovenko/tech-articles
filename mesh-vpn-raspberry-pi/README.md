@@ -69,8 +69,8 @@ This setup opens up exciting possibilities for:
 
 ## What's Next?
 
-Stay tuned for more information about the exciting opportunities you can explore with the Tailscale mesh VPN
-
+I will explain how simple it is to access your home infrastructure from anywhere in the world with some advance preparation:
+![Mesh VPN for Raspberry Pi :: Part 2](../mesh-vpn-raspberry-pi-part2/README.md)
 ---
 
 ## Quick Reference
