@@ -7,6 +7,7 @@ A collection of technical articles covering networking, IoT, microboards, and de
 ```
 tech-articles/
 ├── README.md
+├── seamless-ai/
 ├── pandas-apply-benchmarks/
 ├── mesh-vpn-raspberry-pi-part2/
 ├── mesh-vpn-raspberry-pi/
@@ -14,6 +15,9 @@ tech-articles/
 ```
 
 ## Articles
+
+### 🔗 [Seamless AI](./seamless-ai/README.md)
+Analysis of AI integration challenges in software development processes. Explores the gap between isolated AI tools and truly seamless workflow integration, offering insights on moving beyond fragmented AI adoption.
 
 ### 🔗 [Pandas: Direct Column Calculation vs Masked One](./pandas-apply-benchmarks/README.md)
 Performance analysis of two approaches for processing JSON data in pandas DataFrames. A comprehensive benchmark comparing direct apply vs masked filtering approaches with practical recommendations for different scenarios.
