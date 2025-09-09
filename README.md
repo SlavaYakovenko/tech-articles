@@ -7,17 +7,14 @@ A collection of technical articles covering networking, IoT, microboards, and de
 ```
 tech-articles/
 ├── README.md
-├── seamless-ai/
 ├── pandas-apply-benchmarks/
-├── mesh-vpn-raspberry-pi-part2/
 ├── mesh-vpn-raspberry-pi/
+├── mesh-vpn-raspberry-pi-part2/
+├── mesh-vpn-raspberry-pi-part3/
 └── [future-articles]/
 ```
 
 ## Articles
-
-### 🔗 [Seamless AI](./seamless-ai/README.md)
-Analysis of AI integration challenges in software development processes. Explores the gap between isolated AI tools and truly seamless workflow integration, offering insights on moving beyond fragmented AI adoption.
 
 ### 🔗 [Pandas: Direct Column Calculation vs Masked One](./pandas-apply-benchmarks/README.md)
 Performance analysis of two approaches for processing JSON data in pandas DataFrames. A comprehensive benchmark comparing direct apply vs masked filtering approaches with practical recommendations for different scenarios.
@@ -29,6 +26,15 @@ Performance analysis of two approaches for processing JSON data in pandas DataFr
 - Benchmark methodology
 - Real-world performance implications
 
+### 🔗 [Mesh VPN for Raspberry Pi](./mesh-vpn-raspberry-pi/README.md)
+A practical guide to setting up Tailscale mesh VPN for remote access to Raspberry Pi and other microboards without additional infrastructure. Perfect for developers working with IoT projects and home labs.
+
+**Topics covered:**
+- Solving NAT traversal issues
+- Tailscale installation and setup
+- Mesh networking fundamentals
+- Remote access to microboards
+
 ### 🔗 [Mesh VPN for Raspberry Pi :: Part 2](./mesh-vpn-raspberry-pi-part2/README.md)
 Advanced Tailscale configuration for accessing your entire home network remotely through subnet routing. Learn how to reach any device on your home network from anywhere in the world.
 
@@ -39,14 +45,15 @@ Advanced Tailscale configuration for accessing your entire home network remotely
 - Global device access strategies
 - Network topology best practices
 
-### 🔗 [Mesh VPN for Raspberry Pi](./mesh-vpn-raspberry-pi/README.md)
-A practical guide to setting up Tailscale mesh VPN for remote access to Raspberry Pi and other microboards without additional infrastructure. Perfect for developers working with IoT projects and home labs.
+### 🔗 [Mesh VPN for Raspberry Pi :: Part 3](./mesh-vpn-raspberry-pi-part3/README.md)
+Using Tailscale exit nodes to control your public IP address and route internet traffic through specific devices in your mesh network. Perfect for accessing geo-restricted content and securing connections on untrusted networks.
 
 **Topics covered:**
-- Solving NAT traversal issues
-- Tailscale installation and setup
-- Mesh networking fundamentals
-- Remote access to microboards
+- Exit node configuration
+- Public IP address control
+- Geographic content access
+- Secure internet routing
+- Mobile device setup
 
 ---
 
@@ -57,7 +64,8 @@ A comprehensive guide to building secure, scalable remote access solutions:
 
 1. **Part 1**: Basic mesh VPN setup with device-to-device connectivity
 2. **Part 2**: Subnet routing for full network access
-3. **Part 3**: *(Coming soon)* Exit nodes and advanced security
+3. **Part 3**: Exit nodes for controlled internet access
+4. **Part 4**: *(Coming soon)* Advanced security and ACL configuration
 
 ### **Data Processing Performance Series**
 Practical performance analysis for common data processing scenarios:
