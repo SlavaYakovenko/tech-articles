@@ -16,6 +16,7 @@ myenv/
 .idea/
 *.swp
 *.swo
+*.bkp
 
 # OS files
 .DS_Store

@@ -1,0 +1,62 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="Page-1" id="MrSLbK0Jq72Pw5vK6lLT">
+    <mxGraphModel dx="922" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tyeo0mDRub7FDEVk39Lf-4" edge="1" parent="1" source="tyeo0mDRub7FDEVk39Lf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tyeo0mDRub7FDEVk39Lf-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="184" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyeo0mDRub7FDEVk39Lf-5" edge="1" parent="1" source="tyeo0mDRub7FDEVk39Lf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tyeo0mDRub7FDEVk39Lf-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="184" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyeo0mDRub7FDEVk39Lf-1" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/router.svg;" value="Hotel&lt;br&gt;Router" vertex="1">
+          <mxGeometry height="68.4" width="90" x="190" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tyeo0mDRub7FDEVk39Lf-8" edge="1" parent="1" source="tyeo0mDRub7FDEVk39Lf-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;entryX=-0.014;entryY=-0.018;entryDx=0;entryDy=0;startArrow=classic;startFill=1;entryPerimeter=0;" target="tyeo0mDRub7FDEVk39Lf-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyeo0mDRub7FDEVk39Lf-9" connectable="0" parent="tyeo0mDRub7FDEVk39Lf-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="Mode&lt;div&gt;B&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.078" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyeo0mDRub7FDEVk39Lf-2" parent="1" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.rj45_sfp;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;RJ 45" vertex="1">
+          <mxGeometry height="41" width="54.67" x="360" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tyeo0mDRub7FDEVk39Lf-10" edge="1" parent="1" source="tyeo0mDRub7FDEVk39Lf-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.031;entryY=1.013;entryDx=0;entryDy=0;startArrow=classic;startFill=1;entryPerimeter=0;" target="tyeo0mDRub7FDEVk39Lf-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyeo0mDRub7FDEVk39Lf-11" connectable="0" parent="tyeo0mDRub7FDEVk39Lf-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="Mode&lt;br&gt;A" vertex="1">
+          <mxGeometry relative="1" x="0.0661" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyeo0mDRub7FDEVk39Lf-3" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.wi_fi;" value="Hotel&lt;br&gt;WiFi" vertex="1">
+          <mxGeometry height="50" width="50" x="362" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="tyeo0mDRub7FDEVk39Lf-13" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=90;height=20;fillColor=none;strokeColor=#82b366;" value="Your room" vertex="1">
+          <mxGeometry height="150" width="150" x="550" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tyeo0mDRub7FDEVk39Lf-14" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=90;height=20;fillColor=none;strokeColor=#b85450;" value="Hotel" vertex="1">
+          <mxGeometry height="270" width="580" x="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyeo0mDRub7FDEVk39Lf-15" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/security/Router_VPN.svg;" value="MikroTik" vertex="1">
+          <mxGeometry height="39.6" width="55.800000000000004" x="597.1" y="175.2" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
