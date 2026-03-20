@@ -17,6 +17,16 @@ tech-articles/
 
 ## Articles
 
+### 🔗 [MikroTik as a Travel Router](./mikrotik-travel-router/README.md)
+A practical guide to configuring a MikroTik hAP lite as a travel router for hotels and public networks. Covers two operating modes — WiFi repeater and direct LAN connection — with one-command switching via RouterOS scripts.
+
+**Topics covered:**
+- Network isolation and security on public networks
+- WiFi repeater mode with virtual AP
+- Ethernet WAN mode with automatic DHCP
+- RouterOS scripting for mode switching
+- Firewall hardening for untrusted environments
+
 ### 🔗 [Pandas: Direct Column Calculation vs Masked One](./pandas-apply-benchmarks/README.md)
 Performance analysis of two approaches for processing JSON data in pandas DataFrames. A comprehensive benchmark comparing direct apply vs masked filtering approaches with practical recommendations for different scenarios.
 
@@ -45,16 +55,6 @@ Advanced Tailscale configuration for accessing your entire home network remotely
 - Multi-location network planning
 - Global device access strategies
 - Network topology best practices
-
-### 🔗 [MikroTik as a Travel Router](./mikrotik-travel-router/README.md)
-A practical guide to configuring a MikroTik hAP lite as a travel router for hotels and public networks. Covers two operating modes — WiFi repeater and direct LAN connection — with one-command switching via RouterOS scripts.
-
-**Topics covered:**
-- Network isolation and security on public networks
-- WiFi repeater mode with virtual AP
-- Ethernet WAN mode with automatic DHCP
-- RouterOS scripting for mode switching
-- Firewall hardening for untrusted environments
 
 ### 🔗 [Mesh VPN for Raspberry Pi :: Part 3](./mesh-vpn-raspberry-pi-part3/README.md)
 Using Tailscale exit nodes to control your public IP address and route internet traffic through specific devices in your mesh network. Perfect for accessing geo-restricted content and securing connections on untrusted networks.
