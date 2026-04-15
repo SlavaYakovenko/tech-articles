@@ -17,6 +17,15 @@ tech-articles/
 
 ## Articles
 
+### 🔗 [ADR in the AI Epoch](./adr-in-the-ai-epoch/README.md)
+Exploring the role of Architecture Decision Records (ADRs) when AI agents are part of the development team. A guide on how to integrate ADRs into AI-driven workflows to prevent memory loss and maintain architectural consistency.
+
+**Topics covered:**
+- Architecture Decision Records (ADRs)
+- AI agent collaboration
+- Knowledge persistence in LLMs
+- Project planning with Claude Code
+
 ### 🔗 [MikroTik as a Travel Router](./mikrotik-travel-router/README.md)
 A practical guide to configuring a MikroTik hAP lite as a travel router for hotels and public networks. Covers two operating modes — WiFi repeater and direct LAN connection — with one-command switching via RouterOS scripts.
 
