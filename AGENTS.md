@@ -46,3 +46,7 @@ This repository is a collection of technical articles covering networking, IoT, 
     1. Modify the article's `README.md`.
     2. Ensure all new images follow the naming convention.
     3. Verify the root `README.md` still accurately reflects the content.
+
+## Rules
+    1. Don't use any emoji! Emojies are strictly forbiddent!
+    2. Repository Structure in the root @README.md should contain 3..4 latest articles from this project
