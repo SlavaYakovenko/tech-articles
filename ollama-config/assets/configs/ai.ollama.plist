@@ -1,0 +1,33 @@
+# Ollama Configuration for macOS
+
+# /Users/vaclav/Documents/projects/tech-articles/ollama-config/assets/configs/ai.ollama.plist
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<<plistplist version="1.0">
+<<dictdict>
+    <<keykey>Label</key>
+    <<stringstring>ai.ollama</string>
+    <<keykey>ProgramArguments</key>
+    <<arrayarray>
+        <<stringstring>/Applications/Ollama.app/Contents/Resources/ollama</string>
+        <<stringstring>serve</string>
+    </array>
+    <<keykey>EnvironmentVariables</key>
+    <<dictdict>
+        <<keykey>OLLAMA_KEEP_ALIVE</key>
+        <<stringstring>-1</string>
+        <<keykey>OLLAMA_NUM_PARALLEL</key>
+        <<stringstring>4</string>
+        <<keykey>OLLAMA_CONTEXT_LENGTH</key>
+        <<stringstring>65536</string>
+    </dict>
+    <<keykey>RunAtLoad</key>
+    <<truetrue/>
+    <<keykey>KeepAlive</key>
+    <<truetrue/>
+    <<keykey>StandardOutPath</key>
+    <<stringstring>/tmp/ollama.stdout.log</string>
+    <<keykey>StandardErrorPath</key>
+    <<stringstring>/tmp/ollama.stderr.log</string>
+</dict>
+</plist>
