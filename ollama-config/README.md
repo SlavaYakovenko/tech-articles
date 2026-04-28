@@ -36,35 +36,35 @@ Create the configuration file using the following command:
 
 ```bash
 # Create the plist file to manage Ollama as a system service
-cat <<<EOFEOF > ~/Library/LaunchAgents/ai.ollama.plist
+# ~/Library/LaunchAgents/ai.ollama.plist
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<<plistplist version="1.0">
-<<dictdict>
-    <<keykey>Label</key>
-    <<stringstring>ai.ollama</string>
-    <<keykey>ProgramArguments</key>
-    <<arrayarray>
-        <<stringstring>/Applications/Ollama.app/Contents/Resources/ollama</string>
-        <<stringstring>serve</string>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"\>
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>ai.ollama</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Applications/Ollama.app/Contents/Resources/ollama</string>
+        <string>serve</string>
     </array>
-    <<keykey>EnvironmentVariables</key>
-    <<dictdict>
-        <<keykey>OLLAMA_KEEP_ALIVE</key>
-        <<stringstring>-1</string>
-        <<keykey>OLLAMA_NUM_PARALLEL</key>
-        <<stringstring>4</string>
-        <<keykey>OLLAMA_CONTEXT_LENGTH</key>
-        <<stringstring>65536</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>OLLAMA_KEEP_ALIVE</key>
+        <string>-1</string>
+        <key>OLLAMA_NUM_PARALLEL</key>
+        <string>4</string>
+        <key>OLLAMA_CONTEXT_LENGTH</key>
+        <string>65536</string>
     </dict>
-    <<keykey>RunAtLoad</key>
-    <<truetrue/>
-    <<keykey>KeepAlive</key>
-    <<truetrue/>
-    <<keykey>StandardOutPath</key>
-    <<stringstring>/tmp/ollama.stdout.log</string>
-    <<keykey>StandardErrorPath</key>
-    <<stringstring>/tmp/ollama.stderr.log</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/tmp/ollama.stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/ollama.stderr.log</string>
 </dict>
 </plist>
 EOF
